@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">BaseApp</string>
+    <string name="login">Login</string>
+    <string name="plzzlogin">Please login to your account</string>
+    <string name="asWarehouse">as Warehouse</string>
+    <string name="asCustomer">as Customer</string>
+    <string name="loggedin12hours">Stay logged in for 12 hours</string>
+    <string name="forgotpassword">I forgot my password</string>
+    <string name="signup">SignUp</string>
+    <string name="plzzsignup">Please Sign up for an account</string>
+    <string name="Dont_have_account">Don\'t have an account ? </string>
+    <string name="already_have_account">Already have an account ? </string>
+    <string name="version">Version 5.5.1</string>
+    <string name="addcard">Add New Card</string>
+    <string name="edit">EDIT</string>
+    <string name="add">ADD</string>
+    <string name="save">Save</string>
+    <string name="training">Training in nature increases \n  energy,improves mood, &amp; \n    relieves depression</string>
+    <string name="awat">AWAT, The All Weather All Terrain mobile fitness service, that can be performed any where at any time 24/7 365 days a year,  founded by Rich Decker an international fitness enthusiast. Decker with over 30 years background in the fitness industry from designing and owning facilities, to creating fitness equipment with 2 US fitness patents, an inspirational speaker and author created AWAT fitness, as who needs a gym when we have the great outdoors.  AWAT method is we bring the gym to you. Our trucks have 20 workout stations that address strength , flexibility, core, agility , cardio vascular and most importantly the mind, body and spirit connection. You get to work out without the hassle of driving, parking, checking in, crowds  etc, as time is a valued commodity and at AWAT we respect that.</string>
+
+    <string name="awatt">AWAT, The All Weather All Terrain mobile fitness service, that can be performed any where at any time 24/7 365 days a year,  founded by Rich Decker an international fitness enthusiast.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="firstname">First Name</string>
+    <string name="lastnamne">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="webring">We Bring The Training To You \n at Your Doorstep.</string>
+    <string name="startmsg">Lorem Ipsum is simply dummy text of the\n printing and typesetting industry.</string>
+    <string name="startnow">Start Now</string>
+    <string name="welcomeback">Welcome Back !</string>
+    <string name="entercredentials">Enter your credentials to continue</string>
+    <string name="emailusername">Email / Username</string>
+    <string name="forgotpass"><u>Forgot Password</u></string>
+    <string name="forgotpass1">Forgot Password</string>
+    <string name="signin"><u>Sign In</u></string>
+    <string name="signin1">Sign In</string>
+    <string name="orsign">or sign in with</string>
+    <string name="signup1"><u>Sign Up</u></string>
+    <string name="createacc">Create Account</string>
+    <string name="confpass">Confirm Password</string>
+    <string name="youarea">You are a</string>
+    <string name="orsignup">or sign up with</string>
+    <string name="createyournew">Create your new account to continue</string>
+    <string name="what">What you will do today?</string>
+    <string name="search">Search</string>
+    <string name="selectloc">Select the Location </string>
+    <string name="selecttime">Select the Time </string>
+    <string name="thehamp">The Hamptons</string>
+    <string name="newyork">New York</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="dob">Date of birth</string>
+    <string name="selectbirthday">Select your birthday</string>
+    <string name="choselocation">Choose Location</string>
+    <string name="entremail">Enter your email</string>
+
+
+    <string name="delraybeach">Delray Beach</string>
+    <string name="groupclass">Group classes</string>
+    <string name="dumbbell">Dumbbell rows</string>
+    <string name="des">Description</string>
+    <string name="createbook">Create Booking</string>
+    <string name="name">Name</string>
+    <string name="contactno">Contact number</string>
+    <string name="location">Location</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="bookfor">Book for?</string>
+    <string name="makebooking">Make Booking</string>
+    <string name="myprofile">My Profile</string>
+    <string name="mybooking">My Bookings</string>
+    <string name="workouts">Workouts</string>
+    <string name="about">About</string>
+    <string name="createbooking">Create Booking</string>
+    <string name="contact">Contact</string>
+    <string name="schedule">Schedule</string>
+    <string name="purchase">Purchase Classes</string>
+    <string name="logout">Logout</string>
+    <string name="send">Send</string>
+    <string name="new_pasrd_diferent">Your new password must be different \nfrom Previousely used password</string>
+    <string name="submit">Submit</string>
+    <string name="addcard1">Add card</string>
+    <string name="review">Write a review</string>
+    <string name="payment">Your payment has been paid successfully.</string>
+
+    <string name="plzemail">Please Enter Email</string>
+    <string name="plzpass">Please Enter Password</string>
+    <string name="entrusername">Please Enter Username</string>
+    <string name="confmpass">Please Enter Confirm Password</string>
+    <string name="No_Internet">No Internet</string>
+    <string name="plzotp">Plaese enter OTP</string>
+    <string name="plzcorectotp">Plaese enter Correct OTP</string>
+    <string name="otpresend">Otp Resend Successfully</string>
+
+
+
+
+
+    <!--My Profile
+My Bookings
+Workouts
+About
+Locations
+Create Booking
+Contact-->
+
+
+</resources>

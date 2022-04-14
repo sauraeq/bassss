@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthenticationModule.StartActivity"
+   >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:background="@drawable/car" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:background="@drawable/bg_trans" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="70dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/webring"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_semibold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startmsg"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_regular"/>
+        <TextView
+            android:id="@+id/tvStart"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/startnow"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/bg_white_shape"
+            android:fontFamily="@font/poppins_regular"/>
+
+    </LinearLayout>
+</RelativeLayout>

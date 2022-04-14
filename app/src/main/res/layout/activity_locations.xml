@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".Locations.Locations">
+
+    <include layout="@layout/header"/>
+
+        <RelativeLayout
+            android:id="@+id/rlLoc"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginVertical="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/map" />
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10sp"
+        android:layout_below="@+id/rlLoc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/gray2"
+            android:textSize="15sp"
+            android:text="Select a Location"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:padding="5dp"
+            android:src="@drawable/await"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvLocation"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/rlLoc"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/locations"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="FL, OH, NJ, PA, AR, CO, NC, SC, LA, NV, MI, TX"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="15sp"
+            android:textColor="@color/gray3"
+            android:text="Coming soon to an area near you!"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+</layout>

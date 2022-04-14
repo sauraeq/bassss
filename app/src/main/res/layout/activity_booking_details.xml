@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BookingsDetails.BookingDetails">
+
+    <include layout="@layout/header"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginHorizontal="10sp">
+
+        <ImageView
+            android:id="@+id/ivBookingDetails"
+            android:layout_width="380dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/details" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_alignRight="@+id/ivBookingDetails"
+            android:layout_alignBottom="@+id/ivBookingDetails"
+            android:src="@drawable/heart"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="16sp"
+            android:textColor="@color/black2"
+            android:layout_weight="1"
+            android:text="Dumbbell rows"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="15sp"
+            android:textColor="@color/black2"
+            android:layout_weight="1"
+            android:text="$25/hour"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivmap"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/location_icon_booking"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="100dp"
+            android:layout_toRightOf="@+id/ivmap"
+            android:fontFamily="@font/poppins_regular"
+            android:text="New York"
+            android:textColor="@color/black2"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginHorizontal="5dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="22th Feb,2022"
+            android:textColor="@color/black2"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="14sp"
+            android:textColor="@color/gray2"
+            android:text="Description"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:padding="5dp"
+            android:src="@drawable/await"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="10sp"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="11sp"
+        android:text="@string/awat"/>
+
+</LinearLayout>
